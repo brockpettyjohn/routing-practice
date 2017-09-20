@@ -1,4 +1,10 @@
-.App {
+.links a {
+  /*text-align: center;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.App{
   text-align: center;
 }
 
