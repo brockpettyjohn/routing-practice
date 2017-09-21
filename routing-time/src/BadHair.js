@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default function BadHair(){
+class BadHair extends Component {
+    render() {
+       console.log(this.props)
         return (
             <div>
-                <p>That is the worst haircut.  You look like Friar Tuck.</p>
-                <img alt='sick' src='http://i.imgur.com/XFGysxP.jpg'/>
+                { this.props.newsItems }
             </div>
         )
 
     }
+}
+export default BadHair
